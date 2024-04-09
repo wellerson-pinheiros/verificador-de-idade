@@ -14,19 +14,21 @@
     </header>    
         <section>
             <div id="dados">
-                    <h3>qual a sua idade?</h3>
+                    <h3>Em qual ano voce nasceu ?</h3>
                 <input type="number" value="idade" id="idade">
-                    <label for="genero">
-                        <p>masc<input type="checkbox" name='genero' value="masculino"> 
-                        fem<input type="checkbox" name="genero" value="feminino" > 
-                        </p>
-                    </label>
-                
-                 <button onclick="calcular()">calcular</button>
+                <p> qual seu sexo?
+                    <input type="radio" name="sex" id="masc" checked>
+                    <label for='mas'>masc</label>
+                    <input type="radio" name="sex" id="fem" checked>
+                    <label for="fem">fem</label>
+                </p>     
+                    <button onclick="calcular()">calcular</button><br>
+
+                    <img id="imgs"  src="" alt="foto">
             </div>
             <div id="res" >
-                    <P>resultado ficara aqui</P>
-                    <img id="imgs"  src="" alt="foto">
+                    <P>A sua idade é !</P>
+                    
                     
             </div>
         </section>
